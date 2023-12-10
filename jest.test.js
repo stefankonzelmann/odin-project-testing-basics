@@ -1,3 +1,5 @@
+const capitalize = require("./capizalize");
+
 test("capitalize", () => {
-  expect("").toBe("");
+  expect(capitalize("stefan")).toBe("Stefan");
 });
