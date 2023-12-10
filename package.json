@@ -1,0 +1,22 @@
+{
+  "name": "odin-project-testing-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefankonzelmann/odin-project-testing-basics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefankonzelmann/odin-project-testing-basics/issues"
+  },
+  "homepage": "https://github.com/stefankonzelmann/odin-project-testing-basics#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
