@@ -1,6 +1,7 @@
 const capitalize = require("./capizalize");
 const reverseString = require("./reverseString");
 const calculator = require("./calculator");
+const caesar = require("./caesar");
 
 test("capitalize", () => {
   expect(capitalize("stefan")).toBe("Stefan");
@@ -16,4 +17,9 @@ test("calculator", () => {
   expect(calc.subtract(2, 5)).toBe(-3);
   expect(calc.multiply(2, 5)).toBe(10);
   expect(calc.divide(2, 5)).toBe(0.4);
+});
+
+test("caesar", () => {
+  expect(caesar("abcd", 1)).toBe("BCDE");
+  expect(caesar("zypern", 4)).toBe("DCTIVR");
 });
